@@ -1,21 +1,30 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
-function App() {
+function App(){
+  
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <img src="https://avatars.githubusercontent.com/u/114072139?v=4" className="App-logo" alt="profile photo" />
+        <h1>
+          Joanna Mikulińska
+        </h1>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/avtill"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="github link"
         >
-          Learn React
+          Profil na GitHub
+        </a>
+        <a
+          className="App-link"
+          href="https://www.linkedin.com/in/mikulinska/"
+          target="_blank"
+          rel="linkedin link"
+        >
+          Profil na LinkedIn
         </a>
       </header>
     </div>
