@@ -1,7 +1,7 @@
 import React from "react";
 
 const Navbar =() => {
-    return
+    return (
     <nav>
         <div className="nav__button--emoji">
             <button>👩‍💻</button>
@@ -20,7 +20,7 @@ const Navbar =() => {
                 Kontakt
             </button>
         </div>
-    </nav>
+    </nav>)
 }
 
 export default Navbar;
