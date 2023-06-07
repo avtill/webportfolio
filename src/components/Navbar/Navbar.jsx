@@ -1,25 +1,32 @@
 import React from "react";
+import "../../App.css";
 
 const Navbar =() => {
     return (
-    <nav>
+    <nav className="box__nav--navigation">
         <div className="nav__button--emoji">
-            <button>👩‍💻</button>
+            <a href=""><span className="nav--emoji">👩‍💻</span></a>
         </div>
-        <div className="nav__button--navigation">
-            <button className="nav__button--nav">
-                O mnie
-            </button>
-            <button className="nav__button--nav">
-                Programowanie
-            </button>
-            <button className="nav__button--nav">
-                Portfolio
-            </button>
-            <button className="nav__button--nav">
-                Kontakt
-            </button>
-        </div>
+            <div className="nav__button--nav">
+                <a href="">
+                    <span>O mnie</span>
+                </a>
+            </div>
+            <div className="nav__button--nav">
+                <a href="">
+                    <span>Programowanie</span>
+                </a>
+            </div>
+            <div className="nav__button--nav">
+                <a href="">
+                    <span>Portfolio</span>
+                </a>
+            </div>
+            <div className="nav__button--nav">
+                <a href="">
+                    <span>Kontakt</span>
+                </a>
+            </div>
     </nav>)
 }
 

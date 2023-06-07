@@ -29,11 +29,85 @@ opacity: .8;
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav--emoji{
+  font-size: 48px; 
+}
+
+.box__nav--navigation {
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+  font-size: 24px;
+  background-color: #e4c6ff;
+}
+.nav__button--emoji {
+  display: inline-block;
+}
+span {
+  font-weight: bold;
+  position: relative;
+  z-index: 3;}
+
+.nav__button--nav {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.nav__button--nav a {
+  text-decoration: none;
+  border: 2px solid #010100;
+  padding: 15px;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;
+}
+.nav__button--emoji a {
+  text-decoration: none;
+  border: 2px solid #010100;
+  padding: 1px 15px;
+  color: #000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;}
+
+.nav__button--nav a::before ,
+.nav__button--emoji a::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -2px;
+  width: calc(100% + 6px);
+  height: calc(100% - 10px);
+  background-color: #e4c6ff;
+  transition: all 0.5s ease-in-out;
+  transform: scaleY(1);
+}
+.nav__button--nav a:hover::before ,
+.nav__button--emoji a:hover::before {
+  transform: scaleY(0);
+}
+
+.nav__button--nav a::after,
+.nav__button--emoji a::after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: -5px;
+    width: calc(100% - 10px);
+    height: calc(100% + 10px);
+    background-color: #e4c6ff;
+    transition: all 0.5s ease-in-out;
+    transform: scaleX(1);
+}
+.nav__button--nav a:hover::after,
+.nav__button--emoji a:hover::after {
+  transform: scaleX(0);
 }
