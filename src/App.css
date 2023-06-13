@@ -10,23 +10,24 @@
 }
 
 .App-header {
-  background-color: #320081;
 height: 80%;
 width: 80%;
 margin: auto;
 padding: 100px;
 border-radius: 20px;
-opacity: .8;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #d4e0fd;
+  color:#3a0d82 ;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #00257b;
+}
+.App-link:hover{
+  color:#044cf3
 }
 
 .nav--emoji{
@@ -40,7 +41,7 @@ opacity: .8;
   align-items: center;
   min-height: 10vh;
   font-size: 24px;
-  background-color: #e4c6ff;
+  background-color: #3a0d82;
 }
 .nav__button--emoji {
   display: inline-block;
@@ -60,9 +61,9 @@ span {
 }
 .nav__button--nav a {
   text-decoration: none;
-  border: 2px solid #010100;
+  border: 2px solid#bbcdf7;
   padding: 15px;
-  color: #000;
+  color: #bbcdf7;
   text-transform: uppercase;
   letter-spacing: 2px;
   position: relative;
@@ -70,9 +71,9 @@ span {
 }
 .nav__button--emoji a {
   text-decoration: none;
-  border: 2px solid #010100;
+  border: 2px solid #bbcdf7;
   padding: 1px 15px;
-  color: #000;
+  color: #bbcdf7;
   text-transform: uppercase;
   letter-spacing: 2px;
   position: relative;
@@ -86,7 +87,7 @@ span {
   left: -2px;
   width: calc(100% + 6px);
   height: calc(100% - 10px);
-  background-color: #e4c6ff;
+  background-color: #3a0d82;
   transition: all 0.5s ease-in-out;
   transform: scaleY(1);
 }
@@ -103,7 +104,7 @@ span {
     top: -5px;
     width: calc(100% - 10px);
     height: calc(100% + 10px);
-    background-color: #e4c6ff;
+    background-color: #3a0d82;
     transition: all 0.5s ease-in-out;
     transform: scaleX(1);
 }
