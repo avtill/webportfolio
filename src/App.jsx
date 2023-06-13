@@ -1,10 +1,12 @@
 import React from 'react';
 import './App.css';
+import Navbar from './components/Navbar/Navbar';
 
 function App(){
   
   return (
     <div className="App">
+      <Navbar />
       <header className="App-header">
         <img src="https://avatars.githubusercontent.com/u/114072139?v=4" className="App-logo" alt="profile photo" />
         <h1>
