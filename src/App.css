@@ -112,3 +112,15 @@ span {
 .nav__button--emoji a:hover::after {
   transform: scaleX(0);
 }
+
+h2 {
+  color:#3a0d82;
+  font-size: 36px;
+}
+.box__section--omnie {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+/* .box__section__div--omnie {
+  
+} */
