@@ -5,7 +5,8 @@ import "../../App.css";
 
 const JobTable =()=>{
     return (
-        <table>
+        <table className="table__job">
+       <thead>
         <tr>
             <th>lata</th>
             <th>pracodawca</th>
@@ -13,6 +14,7 @@ const JobTable =()=>{
             <th>co robiłam?</th>
             <th>czego się nauczyłam?</th>
         </tr>
+        </thead>
         <tr>
             <td>2021-teraz</td>
             <td>Zespół Szkół im. Piotra Wysockiego w Warszawie</td>

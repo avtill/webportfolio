@@ -123,15 +123,24 @@ h2 {
   grid-template-columns: 1fr 1fr;
 }
 
-/* .box__section__div--omnie {
-  
-} */
+.box__section__div--omnie, 
 .box__private--article{
   max-width: 50rem;
   margin: auto;
 }
-.span__private--tekst{
+.span__private--tekst,
+.span__job--tekst{
   font-size: 20px;
   display: block;
   padding: 10px;
+}
+.table__job{
+  border: solid #3a0d82;
+  background-color: #ffe4c4;
+}
+.table__job tr:nth-child(even){
+  background-color: #ebd0ac;
+}
+th{
+  background-color: #99b2ec;
 }
