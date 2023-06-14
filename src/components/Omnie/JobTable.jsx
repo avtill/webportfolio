@@ -1,6 +1,8 @@
 import React from "react";
 import "../../App.css";
 
+// do przerobienia na slajder?//
+
 const JobTable =()=>{
     return (
         <table>

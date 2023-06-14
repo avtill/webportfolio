@@ -46,7 +46,8 @@ border-radius: 20px;
 .nav__button--emoji {
   display: inline-block;
 }
-span {
+.span__nav,
+.nav--emoji {
   font-weight: bold;
   position: relative;
   z-index: 3;}
@@ -121,6 +122,16 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
 /* .box__section__div--omnie {
   
 } */
+.box__private--article{
+  max-width: 50rem;
+  margin: auto;
+}
+.span__private--tekst{
+  font-size: 20px;
+  display: block;
+  padding: 10px;
+}

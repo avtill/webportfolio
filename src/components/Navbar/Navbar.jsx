@@ -9,22 +9,22 @@ const Navbar =() => {
         </div>
             <div className="nav__button--nav">
                 <a href="">
-                    <span>O mnie</span>
+                    <span className="span__nav">O mnie</span>
                 </a>
             </div>
             <div className="nav__button--nav">
                 <a href="">
-                    <span>Programowanie</span>
+                    <span className="span__nav">Programowanie</span>
                 </a>
             </div>
             <div className="nav__button--nav">
                 <a href="">
-                    <span>Portfolio</span>
+                    <span className="span__nav">Portfolio</span>
                 </a>
             </div>
             <div className="nav__button--nav">
                 <a href="">
-                    <span>Kontakt</span>
+                    <span className="span__nav">Kontakt</span>
                 </a>
             </div>
     </nav>)
