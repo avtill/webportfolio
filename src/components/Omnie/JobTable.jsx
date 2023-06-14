@@ -39,13 +39,13 @@ const JobTable =()=>{
             <td>
                 <ul>
                     <li>
-                        dobra organizacja pracy
+                        <strong>dobra organizacja pracy</strong>
                     </li>
                     <li>
                         komunikacji zgodniej z procedurami
                     </li>
                     <li>
-                        działanie pod presją czasu
+                        <strong>działanie pod presją czasu</strong>
                     </li>
                     <li>
                         formułowania pism urzędowych
@@ -79,19 +79,19 @@ const JobTable =()=>{
             <td>
                 <ul>
                     <li>
-                        proaktywnej postawy
+                        <strong>proaktywnej postawy</strong>
                     </li>
                     <li>
                         komunikacji z trudnymi gośćmi
                     </li>
                     <li>
-                        dobrej ogranizacji pracy
+                        <strong>dobrej ogranizacji pracy</strong>
                     </li>
                     <li>
                         działania pod presją czasu
                     </li>
                     <li>
-                        przewidywania sytuacji problematycznych i radzenia sobie z nimi
+                        <strong>przewidywania sytuacji problematycznych i radzenia sobie z nimi</strong>
                     </li>
                     <li>
                         swobodnego rozmawiania i żartowania po angielsku
@@ -119,7 +119,7 @@ const JobTable =()=>{
             <td>
                 <ul>
                     <li>
-                        czytania i interpretowania danych/zasiągów
+                        <strong>czytania i interpretowania danych/zasiągów</strong>
                     </li>
                     <li>
                         przygotowania memów
@@ -150,7 +150,7 @@ const JobTable =()=>{
             <td>
                 <ul>
                     <li>
-                        nastawienia proklient
+                        <strong>nastawienia "proklient"</strong>
                     </li>
                     <li>
                         obróbki graficznej zdjęć

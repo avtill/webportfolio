@@ -5,9 +5,14 @@ import Private from "./Private";
 
 const Omnie =()=>{
     return(
-        <section className="box__section--omnie">
+        <section >
+            <h2>
+                O mnie
+            </h2>
+            <div className="box__section--omnie">
             <Job />
             <Private />
+            </div>
         </section>
     )
 }

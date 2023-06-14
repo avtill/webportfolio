@@ -6,7 +6,7 @@ import "../../App.css";
 const Private =()=> {
     return (
             <div>
-                <h2>Prywatnie</h2>
+                <h3>Prywatnie</h3>
                 <article className="box__private--article">
                     <span className="span__private--tekst">
                         Jestem osobą kreatywną, angażującą się i otwartą. Lubię gry RPG i z dzieckiem poznaję świat Minecrafta. Mam w sercu góry i lasy.
