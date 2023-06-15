@@ -123,18 +123,21 @@ h3 {
   color:#4f12b0;
   font-size: 28px;
 }
-.box__section--omnie {
+.box__section--omnie,
+.box__section--programowanie {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
 .box__section__div--omnie, 
-.box__private--article{
+.box__private--article,
+.box__programowanie--article{
   max-width: 50rem;
   margin: auto;
 }
 .span__private--tekst,
-.span__job--tekst{
+.span__job--tekst,
+.span__programowanie--text{
   font-size: 20px;
   display: block;
   padding: 10px;
