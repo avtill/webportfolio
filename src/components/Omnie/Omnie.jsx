@@ -5,7 +5,7 @@ import Private from "./Private";
 
 const Omnie =()=>{
     return(
-        <section >
+        <section id="omnie">
             <h2>
                 O mnie
             </h2>

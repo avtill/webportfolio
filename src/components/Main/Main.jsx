@@ -3,7 +3,7 @@ import "../../App.css";
 
 const Main =()=>{
     return(
-<header className="App-header">
+<header className="App-header" id="main">
         <img src="https://avatars.githubusercontent.com/u/114072139?v=4" className="App-logo" alt="profile photo" />
         <h1>
           Joanna Mikulińska
