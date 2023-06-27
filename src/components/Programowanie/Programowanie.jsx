@@ -1,5 +1,7 @@
 import React from "react";
 import "../../App.css";
+import ikony from "../../img/ikony.png";
+import reactlogo from "../../img/logo192.png";
 
 const Programowanie=()=>{
     return(
@@ -21,7 +23,10 @@ const Programowanie=()=>{
                     </span>
                 </article>
                 {/* przygotować i wstawić grafikę */}
-                <img href="" alt="języki programowania"></img>
+                <div className="box__programing__img--icons">
+                    <img className="img--icons" src={ikony} alt="języki programowania" />
+                    <img className="img--icons" src={reactlogo} alt="ikona Reacta" />
+                </div>
             </div>
         </section>
     )

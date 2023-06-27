@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-image: url("./img/cristal\ background.png");
+max-width: fit-content;
 }
 
 .App-logo {
@@ -36,6 +37,7 @@ border-radius: 20px;
 
 .box__nav--navigation {
   position: sticky;
+  top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,7 +66,7 @@ border-radius: 20px;
   text-decoration: none;
   border: 2px solid#bbcdf7;
   padding: 15px;
-  color: #bbcdf7;
+  color: #eff1f4;
   text-transform: uppercase;
   letter-spacing: 2px;
   position: relative;
@@ -74,7 +76,7 @@ border-radius: 20px;
   text-decoration: none;
   border: 2px solid #bbcdf7;
   padding: 1px 15px;
-  color: #bbcdf7;
+  color: #eff1f4;
   text-transform: uppercase;
   letter-spacing: 2px;
   position: relative;
@@ -112,6 +114,13 @@ border-radius: 20px;
 .nav__button--nav a:hover::after,
 .nav__button--emoji a:hover::after {
   transform: scaleX(0);
+}
+section{
+  padding: 5rem;
+}
+section:nth-child(even){
+  background-color: #3a0d82;
+  color:#eff1f4;
 }
 
 h2 {
@@ -153,4 +162,10 @@ h3 {
 th{
   background-color: #3a0d82;
   color: #ffefdc  ;
+}
+
+.img--icons{
+  display: block;
+margin: auto;
+  max-width: 30rem;
 }
