@@ -72,7 +72,7 @@ const JobTable =()=>{
                         dbanie o przyjemny pobyt gości
                     </li>
                     <li>
-                        byłam odpowiedzialna za programy Heartist oraz ACDC w hotelu
+                        wdrażanie programów Heartist oraz ACDC w hotelu
                         </li>
                 </ul>
             </td>

@@ -1,0 +1,45 @@
+{
+    "jobs": [
+        {
+            "company" : "Zespół Szkół im. Piotra Wysockiego", 
+            "job" : "referent ds. obsługi sekretariatu", 
+            "time" : "2021-teraz",
+            "tasks" : [
+                "obieg pism urzędowych", "organizacja egzaminów maturalnych i zawodowych", "pomoc przy rekturacji", "obsługa spraw uczniowskich", "i inne"
+            ],
+            "skils" : [
+                "dobra organizacja pracy", "komunikacji zgodniej z procedurami", "działanie pod presją czasu", "formułowania pism urzędowych", "czytania i archiwizowania dokumentacji"
+            ]
+        },
+        {"company" : "AccorHotels", 
+        "job" : "Pracownik recepcji i rezerwacji", 
+        "time" : "2016-2021",
+        "tasks" : [
+            "wykonywanie i obsługa rezerwacji", "przyjmowanie gości", "dbanie o przyjemny pobyt gości", "wdrażanie programów Heartist oraz ACDC w hotelu"
+                ],
+        "skils" : [
+            "proaktywnej postawy" , "komunikacji z trudnymi gośćmi", "dobrej ogranizacji pracy", "działania pod presją czasu", "przewidywania sytuacji problematycznych i radzenia sobie z nimi", "swobodnego rozmawiania i żartowania po angielsku"
+        ]
+        },
+        {
+            "company" : "Edipress",
+            "job" : "Specjalista Social Media",
+            "time" : "2016",
+            "tasks" : [
+                "wrzucanie postów na Facebooku","przygotowanie i publikowanie memów", "interpretowanie danych z analityki Facebooka"
+            ],
+            "skils" : ["czytania i interpretowania danych/zasiągów", "przygotowania memów", "przedstawiania w sposób 'klikalny' treści na social mediach"
+            ] 
+        },
+        {
+            "company" : "Eniro Polska",
+            "job" : "Specjalista ds. reklamy katalogowej i internetowej",
+            "time" : "2010-2016",
+            "tasks" : [
+                "rejestrowanie umów szwedzkich sprzedawców", "uzupałenianie wizytówek firm", "zakładanie profili firm na Facebooku"
+            ],
+            "skils" : ["nastawienia 'proklient'", "obróbki graficznej zdjęć", "dokładnego czytania i interpretowania dokumentów", "marketingowego formułowania tekstów"] 
+        }
+    ]
+
+}
