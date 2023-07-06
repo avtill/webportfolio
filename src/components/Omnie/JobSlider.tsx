@@ -17,7 +17,9 @@ class Job {
 }
 
 const JobSlider=()=>{
-    
+    // jobJson.jobs.forEach(element => {
+        
+    // });
 return(
     <div className = "job__sliderbox">
         <div className="job__sliderbox--object">
