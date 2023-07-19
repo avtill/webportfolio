@@ -1,6 +1,7 @@
 import React from "react";
 import "../../App.css";
 import JobTable from "./JobTable";
+import JobSlider from "./JobSlider";
 
 const Job =()=>{
     return (
@@ -11,7 +12,8 @@ const Job =()=>{
                         Przed programowaniem pracowałam w kilku miejscach i kilku branżach. Próbowałam znaleźć dla siebie miejsce wykorzystując moje talenty i mocne strony. Dopiero programując czuję, że mogę osiągnąć znacznie więcej niż mogłam się spodziewać.
                     </span>
                 </article>
-            <JobTable />
+            {/* <JobTable /> */}
+            <JobSlider />
         </div>
     )
 }
