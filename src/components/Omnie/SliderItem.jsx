@@ -5,11 +5,11 @@ const SliderItem = ({ data }) => {
 
   return (
     <div className="slider-item">
-      <p>{time}</p>
-      <p>{company}</p>
-      <p>{job}</p>
-      <p>{tasks}</p>
-      <p>{skils}</p>
+      <p className='slider-p'>{time}</p>
+      <p className='slider-p'>{company}</p>
+      <p className='slider-p'>{job}</p>
+      <p className='slider-p'>{tasks}</p>
+      <p className='slider-p'>{skils}</p>
     </div>
   );
 };
