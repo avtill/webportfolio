@@ -6,8 +6,8 @@ import textIcon from "../../img/text icon.png"
 const PrivIcon =()=> {
     return (
         <>
-        <gridIcon />
-        <textIcon />
+        <img className="img__priv" src={gridIcon} alt="ikona kafelków" />
+        <img className="img__priv" src={textIcon} alt="ikona tekstu" />
         </>
     )
 }

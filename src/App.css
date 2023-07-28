@@ -215,3 +215,11 @@ margin: auto;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
 }
+.img__priv{
+  height: 1.5rem;
+  display: inline-block;
+  margin: 1rem;
+}
+.img__priv:hover, .img__priv:visited{
+  height: 2rem;
+}
