@@ -3,12 +3,12 @@ import "../../App.css";
 import gridIcon from "../../img/grid icon.png";
 import textIcon from "../../img/text icon.png"
 
-const PrivIcon =({setGrid, iconHandler})=> {
+const PrivIcon =({setGrid, iconHandlerGrid, iconHandlerText})=> {
 
     return (
         <>
-        <img className="img__priv" src={gridIcon} alt="ikona kafelków" onClick={iconHandler}/>
-        <img className="img__priv" src={textIcon} alt="ikona tekstu" onClick={iconHandler}/>
+        <img className="img__priv" src={gridIcon} alt="ikona kafelków" onClick={iconHandlerGrid}/>
+        <img className="img__priv" src={textIcon} alt="ikona tekstu" onClick={iconHandlerText}/>
         </>
     )
 }

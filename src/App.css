@@ -151,6 +151,12 @@ h3 {
   max-width: 50rem;
   margin: auto;
 }
+Job{
+  grid-column: 1;
+}
+Private{
+  grid-column: 2;
+}
 .span__private--tekst,
 .span__job--tekst,
 .span__programowanie--text{
@@ -213,7 +219,10 @@ margin: auto;
   color: #fff;
   padding: 0.5rem;
   border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+}
+
+.box__private{
+  width: auto;
 }
 .img__priv{
   height: 1.5rem;
@@ -222,4 +231,39 @@ margin: auto;
 }
 .img__priv:hover, .img__priv:visited{
   height: 2rem;
+}
+.contener--privGrid{
+  width: fit-content;
+  margin: 3rem auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows:repeat(3,1fr);
+  grid-gap: 2rem 1rem;
+}
+.box__privGrid--empty{
+  border: solid 2px #3a0d82;
+  border-radius: 15px;
+  background-color:  #3a0d82;
+  box-shadow: 0 0 5px #d3bbf9;
+
+  height: 5rem;
+  width: 5rem;
+}
+.box__privGrid--img{
+  border: solid 2px  #3a0d82;
+  border-radius: 15px;
+  background-color: #3a0d82;
+  box-shadow: 0 0 5px #d3bbf9;
+  height: 5rem;
+  width: 5rem;
+}
+.box__privGrid--img::hover{
+  height: 6rem;
+  width: 6rem;
+  box-shadow: 0 0 20px #91b0f8;
+}
+.img__privGrid--icon {
+  padding: 1rem;
+  max-width: 3rem;
+  max-height: 3rem;
 }

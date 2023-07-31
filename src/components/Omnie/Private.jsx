@@ -8,14 +8,16 @@ import PrivGrid from "./PrivGrid";
 
 const Private =()=> {
     const [grid, setGrid] = useState(true);
-        const iconHandler=()=>{
-        setGrid(current=> !current)
-        console.log(grid)
+        const iconHandlerGrid=()=>{
+        setGrid(true)
     }
+        const iconHandlerText=()=>{
+            setGrid(false)
+        }
         return (
-        <div>
+        <div className="box__private">
             <h3>Prywatnie</h3>
-            <PrivIcon grid={true} iconHandler={iconHandler}/>
+            <PrivIcon grid={true} iconHandlerGrid={iconHandlerGrid} iconHandlerText={iconHandlerText}/>
            {grid? <PrivGrid /> : <PrivText /> } 
         </div>
 )}
