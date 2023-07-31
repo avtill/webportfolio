@@ -257,9 +257,7 @@ margin: auto;
   height: 5rem;
   width: 5rem;
 }
-.box__privGrid--img::hover{
-  height: 6rem;
-  width: 6rem;
+.box__privGrid--img:hover{
   box-shadow: 0 0 20px #91b0f8;
 }
 .img__privGrid--icon {
