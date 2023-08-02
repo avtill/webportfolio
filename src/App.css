@@ -308,3 +308,13 @@ margin: auto;
   align-items: center;
   justify-content: center;
 }
+.box__contact--items{
+ width: 40%;
+  margin: 2rem auto;
+ border: solid 2px #91b0f8;
+ border-radius: 15px;
+ background-color: #bbcdf7;
+}
+.icon--contact{
+  height: 3rem;
+}
