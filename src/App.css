@@ -281,7 +281,7 @@ margin: auto;
   height: 100%;
   background-color: rgb(58, 13, 130, 0.9);
   border-radius: 15px;
-  color: white;
+  color: #bbcdf7;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -309,6 +309,10 @@ margin: auto;
   justify-content: center;
 }
 .box__contact--items{
+  display: flex;
+  flex-direction: row;
+  align-items: space-around;
+  justify-content: center;
  width: 40%;
   margin: 2rem auto;
  border: solid 2px #91b0f8;
@@ -316,5 +320,15 @@ margin: auto;
  background-color: #bbcdf7;
 }
 .icon--contact{
+  width: fit-content;
   height: 3rem;
+  margin: 1rem;
+}
+.paragraf__contact{
+  display: block;
+  width: 10rem;
+color: #3a0d82;
+font-weight: bolder;
+font-size: 1.5rem;
+  margin: 1rem;
 }
