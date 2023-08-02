@@ -302,6 +302,7 @@ margin: auto;
   height: 1.5rem;
 }
 .paragraf__privGrid__hobbyContent{
+  padding: 2rem;
   flex-grow: 1;
   display: flex;
   align-items: center;
