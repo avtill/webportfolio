@@ -7,6 +7,7 @@ import gameIcon from "../../img/hobby/game white.png";
 import paintIcon from "../../img/hobby/paint white.png";
 import goryIcon  from "../../img/hobby/gory white.png"
 import hobbyContent from "../../json/hobby.json"
+import backArrow from "../../img/backarrow.png"
 
 
 const PrivGrid = () => {
@@ -14,6 +15,10 @@ const PrivGrid = () => {
 
   const handleHobbyClick = (content) =>{
     setClickedHobbyContent(content);
+  }
+
+  const handleBackHobbyClick =() => {
+    setClickedHobbyContent(null);
   }
   return (
     <div className='contener--privGrid'>
@@ -33,7 +38,14 @@ const PrivGrid = () => {
       ))}
       {clickedHobbyContent && (
       <div className='tile-content'>
-        <p>{clickedHobbyContent}</p>
+       <div className='content-wrapper'> 
+        <div className="img__privGrid--navArrow">
+          <img src={backArrow} onClick={handleBackHobbyClick} alt='cofnij' />
+        </div>
+        <div className='paragraf__privGrid__hobbyContent'>
+          <p>{clickedHobbyContent}</p>
+          </div>
+        </div>
         </div>
         )
         }

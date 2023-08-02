@@ -279,10 +279,31 @@ margin: auto;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgb(58, 13, 130, 0.9);
+  border-radius: 15px;
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 16px;
+  font-size: 1rem;
+}
+.tile-content> .content-wrapper{
+  position:flex;
+  flex-direction:column;
+  justify-content: flex-start;
+  height: 100%;
+}
+.img__privGrid--navArrow{
+  width: 3rem;
+  height: 2rem;
+  padding: .5rem;
+}
+.img__privGrid--navArrow>img{
+  height: 1.5rem;
+}
+.paragraf__privGrid__hobbyContent{
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
