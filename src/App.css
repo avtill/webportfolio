@@ -344,18 +344,20 @@ font-size: 1.5rem;
 .box__portfolio--content{
   margin: 2rem auto;
 }
-.box__portolio--content:hover{
+.box__portfolio--content>div{
+  visibility: hidden;
+}
+.box__portfolio--content.hovered>div{
+  visibility :visible;
+}
+.box__portfolio--techText.visable{
   visibility: visible;
 }
 .portfolio--miniature{
   height: 15rem;
   border-radius: 15px;
 }
-.box__portfolio--techText{
-visibility: hidden;
-}
 .portfolio__list{
-
   background-color: #fff; 
   width: 15rem;
   list-style-type: square;
