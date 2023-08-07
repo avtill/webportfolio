@@ -335,20 +335,24 @@ font-weight: bolder;
 font-size: 1.5rem;
   margin: 1rem;
 }
+
+.contener__box__portfolio--items{
+  display: flex; 
+  justify-content: center;
+  align-items: flex-start;
+}
 .box__portfolio--content{
-  width: 80%;
   margin: 2rem auto;
 }
-.box__portfolio--content>a, div{
-  display: inline-block;
+.box__portolio--content:hover{
+  visibility: visible;
 }
 .portfolio--miniature{
   height: 15rem;
   border-radius: 15px;
 }
 .box__portfolio--techText{
-
-background-color: #91b0f8;
+visibility: hidden;
 }
 .portfolio__list{
 
