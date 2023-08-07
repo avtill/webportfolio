@@ -319,6 +319,9 @@ margin: auto;
  border-radius: 15px;
  background-color: #bbcdf7;
 }
+.box__contact--items:hover{
+background-color: #cdf8ff;
+}
 .icon--contact{
   width: fit-content;
   height: 3rem;
