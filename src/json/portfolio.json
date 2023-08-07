@@ -3,14 +3,14 @@
       "link": "https://github.com/avtill/time-tracking-dashboard-main/tree/main/",
       "imgSrc": "https://podchmurna.pl/portfolio/timetracker.png",
       "alt": "miniatura aplikacji time tracker",
-      "techList": ["JavaScript", "HTML", "CSS", "JSON"],
+      "techList": ["JavaScript", "HTML", "CSS (grid, RWD)", "JSON"],
       "describeText": "Pomysł na projekt zrealizowany ze strony FrontendMentor. Wykonałam go na podstawie dostarczonych szablonów korzystając przede wszystkim z grida oraz właściwości \"position\". Zachowałam też wygląd mobilny i zadbałam o responsywność strony. Były to moje pierwsze próby korzystania z informacji zaciąganym z plików JSON w projektach."
     },
     {
       "link": "https://github.com/sabiku85/easybank-lp",
       "imgSrc": "https://podchmurna.pl/portfolio/banklp.png",
       "alt": "miniatura strony banku",
-      "techList": ["JavaScript", "HTML", "SASS"],
+      "techList": ["JavaScript", "HTML", "SASS (RWD, flex, grid)"],
       "describeText": "Pomysł na projekt zrealizowany ze strony FrontendMentor w małej dwuosobowej grupie w celu przećwiczenia umiejętności twardych oraz miękkich. Dzięki współpracy z innym programistą ugruntowałam sobie wiedzę z GITa oraz nauczyłam się korzystać z SASSa."
     },
     {
