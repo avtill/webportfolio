@@ -7,6 +7,7 @@ import Programowanie from './components/Programowanie/Programowanie';
 import Portfolio from './components/Portfolio/Portfolio';
 import Kontakt from './components/Kontakt/Kontakt';
 
+
 function App(){
   
   return (
