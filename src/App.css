@@ -1,7 +1,8 @@
 .App {
   text-align: center;
   background-image: url("./img/cristal\ background.png");
-  max-width: fit-content;
+  background-repeat: repeat;
+  max-width: max-content;
 }
 
 
@@ -139,7 +140,7 @@ margin: auto;
 section{
   padding:2rem;
   min-height: 30rem;
-  
+  width: 100%;
 }
 section:nth-child(even){
   background-color: #3a0d82;
@@ -208,9 +209,6 @@ margin: auto;
   min-height: 12rem;
 }
 
-@media screen and (max-width: 767px) {
-
-}
 
 .button__navigation--slider{
   background-color: #3a0d82;
