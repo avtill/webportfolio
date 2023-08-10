@@ -1,11 +1,12 @@
 .App {
   text-align: center;
   background-image: url("./img/cristal\ background.png");
-max-width: fit-content;
+  max-width: fit-content;
 }
 
+
 .App-logo {
-  height: 40vmin;
+  height: 13rem;
   pointer-events: none;
   border-radius: 200px;
   box-shadow: 0 0 25px #bbcdf7;
@@ -28,7 +29,7 @@ margin: auto;
   height: 2rem;
 }
 .App-link {
-  font-size: larger;
+  font-size: 2rem;
   color: #cdf8ff;
 }
 .App-link:hover{
@@ -37,19 +38,27 @@ margin: auto;
 }
 
 .nav--emoji{
-  font-size: 48px; 
+  font-size: 3rem; 
+}
+
+@media screen and (max-width: 767px) {
+  .nav--emoji{
+    font-size: 2rem;
+  }
 }
 
 .box__nav--navigation {
   position: sticky;
   top: 0;
+  right: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 15vh;
-  font-size: 24px;
+  height: 5rem;
+  font-size: 1.5rem;
   background-color: rgb(58, 13, 130);
 }
+
 .nav__button--emoji {
   display: inline-block;
 }
@@ -59,13 +68,20 @@ margin: auto;
   position: relative;
   z-index: 3;}
 
+
 .nav__button--nav {
-  width: 300px;
-  height: 150px;
+  width: 15rem;
+  height: 7rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+@media screen and (max-width: 767px) {
+  .box__nav--navigation{
+    font-size: .7rem;
+  }
 }
 .nav__button--nav a {
   text-decoration: none;
@@ -122,7 +138,8 @@ margin: auto;
 }
 section{
   padding:2rem;
-  min-height: 30rem
+  min-height: 30rem;
+  
 }
 section:nth-child(even){
   background-color: #3a0d82;
@@ -139,10 +156,12 @@ h3 {
   color:#4f12b0;
   font-size: 28px;
 }
-.box__section--omnie,
+@media screen and (min-width: 768px){
+  .box__section--omnie,
 .box__section--programowanie {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
 }
 
 .box__section__div--omnie, 
@@ -151,12 +170,13 @@ h3 {
   max-width: 50rem;
   margin: auto;
 }
-Job{
+@media screen and (min-width: 768px) {
+  Job{
   grid-column: 1;
 }
 Private{
   grid-column: 2;
-}
+}}
 .span__private--tekst,
 .span__job--tekst,
 .span__programowanie--text{
@@ -188,6 +208,10 @@ margin: auto;
   min-height: 12rem;
 }
 
+@media screen and (max-width: 767px) {
+
+}
+
 .button__navigation--slider{
   background-color: #3a0d82;
   color: #fff;
@@ -213,6 +237,12 @@ margin: auto;
   max-width: 80%;
   padding: 0 20px;
   vertical-align: middle;
+}
+@media screen and (max-width: 767px) {
+  .slider-item{
+    max-width: 22rem
+  }
+  
 }
 .slider-p{  
   background-color: #3a0d82;
@@ -320,7 +350,7 @@ margin: auto;
  background-color: #bbcdf7;
 }
 .box__contact--items:hover{
-background-color: #cdf8ff;
+background-color: #ffefdc;
 }
 .icon--contact{
   width: fit-content;
@@ -335,6 +365,20 @@ font-weight: bolder;
 font-size: 1.5rem;
   margin: 1rem;
 }
+
+@media screen and (max-width: 767px){
+  .contener__box__portfolio--items{
+flex-direction: column;
+  }
+  .box__portfolio--content>div{
+    visibility: visible;
+    height: fit-content;
+    border: solid 2px #00257b;
+    border-radius: 15px;
+    background-color: rgb(239, 241, 244, 0.5);
+  }
+}
+
 
 .contener__box__portfolio--items{
   display: flex; 
