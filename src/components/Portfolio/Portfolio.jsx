@@ -28,6 +28,7 @@ const Portfolio=()=>{
           />
         ))}
       </div>
+      <a href="https://github.com/avtill" target="_blank">Więcej projektów na moim GITHUBIE</a>
     </section>
     )
 }

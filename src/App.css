@@ -349,24 +349,26 @@ font-size: 1.5rem;
 }
 .box__portfolio--content.hovered>div{
   visibility :visible;
+  border: solid 2px #00257b;
+  border-radius: 15px;
+  background-color: #eff1f4;
 }
 .box__portfolio--techText.visable{
   visibility: visible;
 }
 .portfolio--miniature{
-  height: 15rem;
+  width: 25rem;
   border-radius: 15px;
 }
 .portfolio__list{
-  background-color: #fff; 
   width: 15rem;
   list-style-type: square;
   list-style-position: inside;
   text-align: left;
-  margin: 1rem;
+  margin: 2rem auto;
 }
 .box__portfolio--describeText{
-  background-color: #ffefdc;
- width: 15rem;
- margin: 1rem;
+ width: 22rem;
+ text-align: center;
+ margin: auto;
 }
