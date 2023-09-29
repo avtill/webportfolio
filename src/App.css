@@ -1,16 +1,26 @@
 .App {
   text-align: center;
   background-image: url("./img/cristal\ background.png");
-  background-repeat: repeat;
-  max-width: max-content;
-}
+  background-color: #ffefdc;
+  background-repeat: no-repeat;
+  background-size: cover
 
+
+}
 
 .App-logo {
   height: 13rem;
   pointer-events: none;
   border-radius: 200px;
   box-shadow: 0 0 25px #bbcdf7;
+}
+
+@media screen and (max-width: 767px) {
+  .box__nav--navigation{
+    visibility: hidden;
+    max-height: 0
+  }
+  
 }
 
 a{
@@ -23,8 +33,9 @@ margin: auto;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color:#3a0d82 ;
+  color:#bbcdf7 ;
 }
+
 .box__main--likbutton{
   padding: 1rem;
   height: 2rem;
@@ -69,10 +80,9 @@ margin: auto;
   position: relative;
   z-index: 3;}
 
-
 .nav__button--nav {
-  width: 15rem;
   height: 7rem;
+  margin-left: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -140,11 +150,10 @@ margin: auto;
 section{
   padding:2rem;
   min-height: 30rem;
-  width: 100%;
+width: 100%;
 }
 section:nth-child(even){
   background-color: #3a0d82;
-  
   color:#eff1f4;
 }
 
@@ -208,7 +217,6 @@ margin: auto;
   text-align: center;
   min-height: 12rem;
 }
-
 
 .button__navigation--slider{
   background-color: #3a0d82;
