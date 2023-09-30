@@ -1,11 +1,8 @@
 .App {
   text-align: center;
   background-image: url("./img/cristal\ background.png");
-  background-color: #ffefdc;
-  background-repeat: no-repeat;
-  background-size: cover
-
-
+background-repeat: no-repeat;
+background-size: cover
 }
 
 .App-logo {
@@ -20,7 +17,17 @@
     visibility: hidden;
     max-height: 0
   }
-  
+}
+
+section{
+  padding:2rem;
+  min-height: 30rem;
+/* width: 100%; */
+
+}
+section:nth-child(even){
+  background-color: #3a0d82;
+  color:#eff1f4;
 }
 
 a{
@@ -147,24 +154,19 @@ margin: auto;
 .nav__button--emoji a:hover::after {
   transform: scaleX(0);
 }
-section{
-  padding:2rem;
-  min-height: 30rem;
-width: 100%;
-}
-section:nth-child(even){
-  background-color: #3a0d82;
-  color:#eff1f4;
-}
-
+/* @media screen and (max-width: 767px) {
+  h2{
+    font-size: ;
+  }
+} */
 h2 {
   color:#eff1f4;
-  font-size: 52px;
+  font-size: 3rem;
  text-shadow: 1px 1px 2px #3a0d82, 0 0 25px #4f12b0, 0 0 5px #00257b;
 }
 h3 {
   color:#4f12b0;
-  font-size: 28px;
+  font-size: 2rem;
 }
 @media screen and (min-width: 768px){
   .box__section--omnie,
@@ -210,7 +212,7 @@ th{
 .img--icons{
   display: block;
 margin: auto;
-  max-width: 30rem;
+  max-width: 15rem;
 }
 
 .job__sliderbox{
@@ -246,7 +248,7 @@ margin: auto;
 }
 @media screen and (max-width: 767px) {
   .slider-item{
-    max-width: 22rem
+    max-width: 13rem
   }
   
 }
@@ -280,6 +282,14 @@ margin: auto;
   grid-template-rows:repeat(3,1fr);
   grid-gap: 2rem 1rem;
 }
+@media screen and (max-width: 676px) {
+  .contener--privGrid{
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows:repeat(5,1fr); 
+}
+}
+
+
 .box__privGrid--empty{
   position: relative;
   border: solid 2px #3a0d82;
@@ -411,6 +421,13 @@ flex-direction: column;
 .portfolio--miniature{
   width: 25rem;
   border-radius: 15px;
+}
+@media screen and (max-width: 676px) {
+  .portfolio--miniature{
+    width: 15rem;
+    border-radius: 15px;
+  }
+  
 }
 .portfolio__list{
   width: 15rem;

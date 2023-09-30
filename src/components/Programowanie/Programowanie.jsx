@@ -22,7 +22,6 @@ const Programowanie=()=>{
                         Jeszcze nie obrałam swojej ścieżki jako programistka. Liczę, że zyskując pierwsze komercyjne doświadczenie i zanurzając się bardziej w ten świat otworzą się przede mną różne drzwi. Z pomocą kolegów z pracy, na pewno uda mi się obrać dobrą drogę dla mnie. Chcę móc rozwijać moje umiejętności i móc dodawać od siebie unikalną wartość płynącą z talentów i doświadczenia.
                     </sp>
                 </article>
-                {/* przygotować i wstawić grafikę */}
                 <div className="box__programing__img--icons">
                     <img className="img--icons" src={ikony} alt="języki programowania" />
                     <img className="img--icons" src={reactlogo} alt="ikona Reacta" />
