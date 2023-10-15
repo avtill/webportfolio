@@ -1,6 +1,7 @@
 {
     "jobs": [
         {
+            "type":"administracja",
             "company" : "Zespół Szkół im. Piotra Wysockiego", 
             "job" : "referent ds. obsługi sekretariatu", 
             "time" : "2021-teraz",
@@ -11,7 +12,9 @@
                 "dobra organizacja pracy", "komunikacji zgodniej z procedurami", "działanie pod presją czasu", "formułowania pism urzędowych", "czytania i archiwizowania dokumentacji"
             ]
         },
-        {"company" : "AccorHotels", 
+        {
+            "type":"hotelarstwo",
+            "company" : "AccorHotels", 
         "job" : "Pracownik recepcji i rezerwacji", 
         "time" : "2016-2021",
         "tasks" : [
@@ -22,6 +25,7 @@
         ]
         },
         {
+            "type":"social media",
             "company" : "Edipress",
             "job" : "Specjalista Social Media",
             "time" : "2016",
@@ -32,6 +36,7 @@
             ] 
         },
         {
+            "type": "marketing i administracja",
             "company" : "Eniro Polska",
             "job" : "Specjalista ds. reklamy katalogowej i internetowej",
             "time" : "2010-2016",
