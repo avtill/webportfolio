@@ -72,7 +72,8 @@
   
   .slider-item{
     display: inline-block;
-    max-width: 80%;
+    height: 30rem;
+    width: 80%;
     padding: 0 20px;
     vertical-align: middle;
   }

@@ -8,8 +8,12 @@ const SliderItem = ({ data }) => {
       <p className='slider-p'>{time}</p>
       <p className='slider-p'>{company}</p>
       <p className='slider-p'>{job}</p>
-      <p className='slider-p'>{tasks}</p>
-      <p className='slider-p'>{skils}</p>
+      <ul className='slider-p'>{tasks.map((tasks, index)=>(
+        <li key={index}>{tasks}</li>))}
+      </ul>
+      <ul className='slider-p'>{skils.map((skils, index)=>(
+        <li key={index}>{skils}</li>
+      ))}</ul>
     </div>
   );
 };
