@@ -14,6 +14,11 @@ const JobSlider=()=>{
      }
 return(
     <div className = "job__sliderbox">
+        <div>
+            <h4>
+                Tam pracowałam:
+            </h4>
+        </div>
         <button className="button__navigation--slider" onClick={handlePrevSlide}> {'<'} </button>
         <SliderItem data={jobSliderData.jobs[currentIndex]} />
         <button className="button__navigation--slider" onClick={handleNextSlide}> {'>'} </button>

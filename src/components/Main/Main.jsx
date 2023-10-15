@@ -10,7 +10,10 @@ const Main =()=>{
           <h1>
             Joanna Mikulińska
           </h1>
-          <MainLink />
+          <h4>
+            Frontend Developer
+          </h4>
+          {/* <MainLink /> */}
         </div>
       </section>
     )

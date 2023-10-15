@@ -1,5 +1,6 @@
 import React from "react";
 import "../../App.css";
+import "./Omnie.css"
 import Job from "./Job";
 import Private from "./Private";
 

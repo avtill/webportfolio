@@ -1,0 +1,103 @@
+.nav--emoji{
+    font-size: 3rem; 
+  }
+@media screen and (max-width: 767px) {
+    .nav--emoji{
+      font-size: 2rem;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .box__nav--navigation{
+      visibility: hidden;
+      max-height: 0
+    }
+  }  
+
+.box__nav--navigation {
+    position: sticky;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    font-size: 1.5rem;
+    background-color: rgb(58, 13, 130);
+  }
+  
+  .nav__button--emoji {
+    display: inline-block;
+  }
+  .span__nav,
+  .nav--emoji {
+    font-weight: bold;
+    position: relative;
+    z-index: 3;}
+  
+  .nav__button--nav {
+    height: 7rem;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .box__nav--navigation{
+      font-size: .7rem;
+    }
+  }
+  .nav__button--nav a {
+    text-decoration: none;
+    border: 2px solid#bbcdf7;
+    padding: 15px;
+    color: #eff1f4;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    display: inline-block;
+  }
+  .nav__button--emoji a {
+    text-decoration: none;
+    border: 2px solid #bbcdf7;
+    padding: 1px 15px;
+    color: #eff1f4;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    display: inline-block;}
+  
+  .nav__button--nav a::before ,
+  .nav__button--emoji a::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -2px;
+    width: calc(100% + 6px);
+    height: calc(100% - 10px);
+    background-color: #3a0d82;
+    transition: all 0.5s ease-in-out;
+    transform: scaleY(1);
+  }
+  .nav__button--nav a:hover::before ,
+  .nav__button--emoji a:hover::before {
+    transform: scaleY(0);
+  }
+  
+  .nav__button--nav a::after,
+  .nav__button--emoji a::after {
+      content: "";
+      position: absolute;
+      left: 5px;
+      top: -5px;
+      width: calc(100% - 10px);
+      height: calc(100% + 10px);
+      background-color: #3a0d82;
+      transition: all 0.5s ease-in-out;
+      transform: scaleX(1);
+  }
+  .nav__button--nav a:hover::after,
+  .nav__button--emoji a:hover::after {
+    transform: scaleX(0);
+  }
