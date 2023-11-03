@@ -67,8 +67,6 @@ li {
   list-style: none;
 }
 
-
-
 @media screen and (max-width: 767px){
   .contener__box__portfolio--items{
 flex-direction: column;

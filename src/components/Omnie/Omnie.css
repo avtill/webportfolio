@@ -11,6 +11,7 @@
   .box__programowanie--article{
     max-width: 50rem;
     margin: auto;
+
   }
   @media screen and (min-width: 768px) {
     Job{
@@ -22,7 +23,7 @@
   .span__private--tekst,
   .span__job--tekst,
   .span__programowanie--text{
-    font-size: 20px;
+    font-size: 1rem;
     display: block;
     padding: 10px;
   }
@@ -79,7 +80,8 @@
   }
   @media screen and (max-width: 767px) {
     .slider-item{
-      max-width: 13rem
+      max-width: 13rem;
+      height: 38rem;
     }
     
   }
